@@ -26,7 +26,7 @@
                     Locacao locacao = objLocacaoDAO.pesquisarLocacaoPorId(lista.get(num).getLocacao_id());
 
                     out.print("Carro: " + carro.getModelo() + "<br>");
-                    out.print("Valor da Locação: " + locacao.getValor_total());
+                    out.print("Valor da Locação: " + locacao.getValor_total() + "<br>");
                     }
 
             } catch (Exception e) {
